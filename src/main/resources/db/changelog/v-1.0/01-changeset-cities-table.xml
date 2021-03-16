@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="2" author="author">
+        <sqlFile
+                dbms="postgresql"
+                encoding="utf8"
+                endDelimiter="\nNEXT"
+                relativeToChangelogFile="true"
+                splitStatements="true"
+                stripComments="true"
+                path="01-create-cities-table.sql"/>
+        <rollback>
+            <sqlFile
+                    dbms="postgresql"
+                    encoding="utf8"
+                    endDelimiter="\nNEXT"
+                    relativeToChangelogFile="true"
+                    splitStatements="true"
+                    stripComments="true"
+                    path="01-drop-cities-table.sql"/>
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

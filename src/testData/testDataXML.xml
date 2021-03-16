@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <allDistances>
+        <cityDistance>
+            <cityFrom>
+                <name>Kemerovo</name>
+                <latitude>55.33</latitude>
+                <longitude>86.08</longitude>
+            </cityFrom>
+            <cityTo>
+                <name>Orenburg</name>
+                <latitude>51.77</latitude>
+                <longitude>55.09</longitude>
+            </cityTo>
+            <distance>2068.0</distance>
+        </cityDistance>
+    </allDistances>
+</root>

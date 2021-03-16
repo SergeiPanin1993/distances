@@ -1,0 +1,27 @@
+{
+  "calculationType" : "Crowflight",
+  "cityFrom" : [
+    {
+      "name" : "Omsk",
+      "latitude" : "54.99",
+      "longitude" : "73.36"
+    },
+    {
+      "name" : "Saratov",
+      "latitude" : "51.54",
+      "longitude" : "46.00"
+    }
+  ],
+  "cityTo" : [
+    {
+      "name" : "Orel",
+      "latitude" : "52.96",
+      "longitude" : "36.07"
+    },
+    {
+      "name" : "Magadan",
+      "latitude" : "59.56",
+      "longitude" : "150.80"
+    }
+  ]
+}

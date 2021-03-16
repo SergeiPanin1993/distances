@@ -1,0 +1,1 @@
+create table cities (id serial primary key, name varchar(255) not null, latitude numeric, longitude numeric );
